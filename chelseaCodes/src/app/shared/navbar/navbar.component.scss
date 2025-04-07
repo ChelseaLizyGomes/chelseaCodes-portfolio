@@ -1,0 +1,16 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c5d8e6 !important;
+
+    .nav-link {
+        color: #333;
+
+        &:hover {
+            color: #ffa423;
+        }
+    }
+
+    .navbar-brand {
+        color: #333;
+    }
+}
