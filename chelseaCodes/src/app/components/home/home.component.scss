@@ -1,0 +1,38 @@
+.intro-section {
+    background-color: #000; // or your primary background
+    color: #fff;
+    padding: 4rem 2rem;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        max-width: 900px;
+    }
+
+    .intro-heading {
+        font-size: 3rem;
+        font-family: 'Playfair Display', serif; // Or any bold, friendly font
+        font-weight: 800;
+        color: #93aec1; // Using --c1
+        margin-bottom: 1rem;
+    }
+
+    .intro-subtext {
+        font-size: 1.25rem;
+        font-family: 'Inter', sans-serif;
+        color: #f3b7ad; // Optional: use --c5 for a soft tone
+    }
+}
+
+// Responsive
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 2.2rem;
+    }
+
+    .intro-subtext {
+        font-size: 1rem;
+    }
+}
